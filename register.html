@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WeProject AdminPanel</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/switchery.min.css">
+<link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
+
+
+    <script src="js/app/register.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-auth.js"></script>
+
+
+</head>
+
+<body style="display:none">
+
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand user-text" href="/adminpanel.html"></a>
+                    </div>
+        
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a  href="index.html" target="_blank" >Sayta Baxlış</a></li>
+                            <li><a id="logout" href="">Çıxış</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        
+            <div class="container">
+             
+               
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 sol"><div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action active">
+                             Bolmeler
+                            </a>
+                            <a href="adminpanel.html" class="list-group-item list-group-item-action activemenu">Xəbər Əlavə Et</a>
+                            <a href="register.html" class="list-group-item list-group-item-action">İstifadəçi Əlavə et</a>
+                            <a href="bolmeler.html" class="list-group-item list-group-item-action">Bölmə əlavə et</a>
+                            <a href="reklam.html" class="list-group-item list-group-item-action">Reklamlar</a>
+                            <a href="newscat.html" class="list-group-item list-group-item-action">Xəbər Bölmələri</a>
+                            <a href="slider.html" class="list-group-item list-group-item-action">Slider</a>
+                            <a href="footernote.html" class="list-group-item list-group-item-action">Footer Hissəsi</a>
+                          
+                          </div></div>
+            <div class="col-md-9 col-lg-9 sag">
+                    <div class="container">
+                            <h3 class="text-center">Istifadeci Elave et</h3>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3 well">
+                        
+                                        <div class="form-group">
+                                            <label>E-mail</label>
+                                            <input type="email" class="form-control" id="email" placeholder="E-mail">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Password</label>
+                                            <input type="password" class="form-control" id="password" placeholder="Password">
+                                        </div>
+                                        <button id="registerBtn" class="btn btn-primary btn-block">Istifadeci Elave et</button>
+                        
+                                </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+
+ 
+
+
+     
+    <script src="assets/js/switchery.min.js"></script>
+
+
+</body>
+
+</html>

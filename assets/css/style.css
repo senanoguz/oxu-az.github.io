@@ -1,0 +1,23 @@
+.sol{
+    float:left;
+    width: 100%;
+
+}
+.sag{
+    float:left;
+    width: 100%;
+}
+.footer{
+    clear:both;
+}
+.activemenu{
+    background-color:rgba(15, 235, 15, 0.603);
+}
+
+a:hover{
+    background-color:rgba(8, 185, 170, 0.212) !important;  
+}
+.active:hover{
+    background-color:#337ab7 !important;
+    cursor: auto !important;
+}

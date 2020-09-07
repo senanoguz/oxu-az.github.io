@@ -1,0 +1,314 @@
+.footer {
+    padding-top: 20px;
+    clear: both;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.footermenu ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.footermenu ul li {
+    display: inline;
+    padding: 10px;
+}
+
+.footermenu ul li a {
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.footermenu p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: grey;
+}
+
+.middle {
+    margin-top: 80px;
+    margin-left: 9%;
+}
+
+.rightdesign {
+    margin-right: 20px;
+    width: 200px;
+    margin-bottom: 20px
+}
+
+.rightdesign:hover {
+    background-color: rgba(73, 73, 72, 0.274);
+}
+
+.menuup {
+    margin-top: 5px;
+}
+
+.menuup a {
+    position: relative;
+    left: 120px;
+    margin-right: 15px;
+    line-height: 22px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+
+.tarix{
+   position: relative;
+   bottom:84px;
+    right:20px;
+    width: 20%;
+    height: 30%;
+    text-align: center;
+    size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1894a0;;
+   
+}
+
+.tarix2{
+    position: relative;
+    bottom:93px;
+    
+    font-size:14px;
+     right:20px;
+     width: 20%;
+     height: 15%;
+  
+    
+     text-align: center;
+ 
+     color: rgb(255, 255, 255);
+     background-color: #334564;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+.menuup a:hover {
+    /* text-decoration: none; */
+    /* margin-right:10px;
+    background-color:black;
+    font-size:18px;
+    padding: 40px; */
+    color: #13767f;
+}
+
+.w-100 {
+    height: 460px;
+}
+
+.solreklam {
+    position: fixed;
+    top: 250px;
+    left: 20px;
+    z-index: -1;
+  
+}
+
+#carouselExampleControls h5 {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.icons a>i {
+    margin-right: 10px;
+}
+
+.icons {
+    position: relative;
+    left: 50px;
+    margin-top: 5px;
+}
+
+.sagreklam {
+    position: fixed;
+    top: 250px;
+    right: 20px;
+    z-index: -1;
+}
+
+.oku-link {
+    /* display: inline-block; */
+    margin-top: 8px;
+    margin-right: 15px;
+    line-height: 22px;
+    color: white;
+    font-size: 14px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+.logo {
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    position: relative;
+    bottom: 22px;
+    right: 15px;
+    font-size: 30px;
+    color: white;
+    text-shadow: none;
+    z-index: 2;
+    font-size: 40px;
+    width: 125px;
+    height: 22px;
+}
+
+.navbar {
+    float: right;
+    text-align: right;
+    font-family: pf_din_text_cond_promedium, Arial, sans-serif;
+}
+
+.search-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 226px;
+    height: 34px;
+    line-height: 34px\9;
+    margin: 0;
+    padding: 0 34px 0 8px;
+    outline: 0;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    border-color: rgba(255, 255, 255, .3);
+    background: none transparent;
+    color: #fff;
+    font-size: 18px;
+}
+
+.search-submit {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 34px;
+    height: 34px;
+    margin: 0 0 0 -34px;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.search {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.logo:hover {
+    color: rgba(255, 255, 255, 0.466);
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.news-img {
+    display: inline-block;
+    vertical-align: top;
+    min-height: 300px;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+.news_top {
+    color: #13317f;
+    font-size: 40px;
+    margin-left: 260px;
+    margin-right: -310px
+}
+
+.news {
+    color: black;
+    font-size: 18px;
+    margin-left: 260px;
+    margin-right: -310px
+}
+
+.header {
+    overflow: hidden;
+    width: 100%;
+    z-index: 3;
+    height: 60px;
+    transform: translateZ(0);
+    background-color: #00193c;
+    background-image: url(img/header_bg.png);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .4);
+}
+
+#video1 {
+    margin-left: 0;
+}
+
+.l-center {
+    width: 940px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.yapisqan{
+
+    top:0;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px Arial, sans-serif;
+    background-color: #fff;
+}
+
+.nav-i {
+    margin-right: 10px;
+    display: inline-block;
+    color: #fff;
+    padding-left: 5px;
+    border-left: 1px solid rgba(255, 255, 255, 0.103);
+    padding-right: 5px;
+    border-right: 1px solid rgba(255, 255, 255, 0.103);
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-i:hover {
+    background-color: #454545;
+    color: white;
+}
+
+.nav-i a:first-child {
+    background-color: #454545;
+}
+
+.nav-container {
+    padding: 5px;
+    background-color: #222;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .4);
+}
+
+.mynav {
+    padding-bottom: 5px 5px;
+    overflow: hidden;
+    max-width: 900px;
+    display: block;
+}
